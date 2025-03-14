@@ -25,7 +25,7 @@
 // let str2 = "muqaddaas";
 // console.log(str + str2);
 
-// // 3. boolean - true yoki false qytaradi
+// 3. boolean - true yoki false qytaradi
 
 // let name = true;
 // let name2 = false;
@@ -46,7 +46,7 @@
 // 6. bigInt - katta sonlarni hisoblashda ishlatiladii.
 // console.log(
 //   12345678909876543212345678912345678909876543212734567890987654321n +
-//     123456789098765432123456789n
+//     123456789098765432123456789
 // );
 
 // 7. symbol -  soon
@@ -78,7 +78,7 @@ let user = {
       hobby2: "Chess",
       hobby3: [24, 500, { hobby4: "Hamster" }],
     },
-  ], 
+  ],
 };
 
 console.log(user.hobby[2].hobby3[2].hobby4);
